@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend&display=swap" rel="stylesheet">
+ 
+</head>
+<body>
+    <div class="overlay" id="overlay"></div>
+    <form class="add-book-form">
+    <div class="addcard"> 
+        <h2 style="text-align: center; font-size: 24px;">Add new book</h2>
+        <input type="text" placeholder="Title" name="" id="titleholder">
+        <input type="text" placeholder="Author" name="" id="authorholder">
+        <input type="text" placeholder="Pages" name="" id="pagesholder">
+        <label style="text-align: center;" for="checkinput">Have you read it ?</label>
+        <input type="checkbox" name="" id="checkinput">
+        <button class="btnsubmit" type="submit">SUBMIT</button>
+    </div>
+    </form>
+<div class="header-countainer">
+    <h1>LIBRARY+</h1>
+</div>
+<div class="main-countainer">
+    <button onclick="revealChoice()" class="btn">+Add book</button>
+    <div class="grid-countainer">
+</div>
+</div>
+
+ 
+</div>
+<script src="main.js"></script></body>
+</html>
