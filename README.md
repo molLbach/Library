@@ -1,1 +1,1 @@
-# Library
+I didn't put a lot of effort on styling just tried to make the library functional, their are also a lot off things that I can add on to make the site even more complete, I might flesh this one out later by adding a database with it
